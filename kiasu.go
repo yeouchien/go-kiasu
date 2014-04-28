@@ -3,7 +3,6 @@ package main
 import (
   "github.com/go-martini/martini"
   "github.com/robfig/cron"
-  "fmt"
   "os"
   "os/exec"
 )
