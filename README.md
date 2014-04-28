@@ -15,3 +15,4 @@ A Chinese adjective used to describe a person's fear of losing out (to someone e
 ## To-Do list
 * Deployment script
 * Kiasu as a service
+* Configurable kiasuness
