@@ -10,7 +10,7 @@ import (
 func main() {
   m := martini.Classic()
   c := cron.New()
-  c.AddFunc("0 10 10 * * *", func() { 
+  c.AddFunc("0 * * * *", func() { 
     KiasuAppend()
     KiasuCommit()
     KiasuPush()
