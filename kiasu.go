@@ -11,8 +11,7 @@ import (
 func main() {
   m := martini.Classic()
   c := cron.New()
-  c.AddFunc("@every 20s", func() { 
-    fmt.Println("kia") 
+  c.AddFunc("0 10 10 * * *", func() { 
     KiasuAppend()
     KiasuCommit()
     KiasuPush()
